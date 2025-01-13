@@ -28,6 +28,10 @@ public class ArrayPractice {
 
     // Iterate over the array using a for-each loop and print out each item
 
+    for(String fString: firstArray){
+      System.out.println("value:" +fString);
+    }
+
     /*
      * Reminder!
      * 
