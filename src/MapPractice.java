@@ -25,17 +25,27 @@ public class MapPractice {
 
     // Replace the value associated with a given key (the size of the Map shoukld not change)
 
-    
+    firstHashMap.put("first", 4);
 
     // Check whether the Map contains a given key
 
+    firstHashMap.containsKey("first");
+
     // Check whether the Map contains a given value
+
+    firstHashMap.containsValue(4);
 
     // Iterate over the keys of the Map, printing each key
 
+    System.out.println(firstHashMap.keySet());
+
     // Iterate over the values of the map, printing each value
 
+    System.out.println(firstHashMap.values());
+
     // Iterate over the entries in the map, printing each key and value
+
+    System.out.println(firstHashMap.entrySet());
 
     /*
      * Usage tip!
